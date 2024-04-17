@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:#2575fc;
+}
+.box-2{
+    height:400px;
+    width: 25%;
+    background-color: aliceblue;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 5%;
+}
+.box-2 h1{
+    background-color: aliceblue;
+    font-size:xl;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: 35%;
+    border-bottom: 4px solid blueviolet;
+    color: blueviolet;
+}
+.box-2 input{
+    height: 50px;
+    width:80%;
+    margin-left: 5%;
+    outline: none;
+    border: none;
+    background-color:#DCDCDC;
+    border-radius: 5px;
+    margin-top: 15%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 2);
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor:grab;
+}
+.login-btn-2{
+    margin-left: 8%;
+    height: 50px;
+    width: 40%;
+    border-radius: 40px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 2),0 6px 20px 0 rgba(0,0,0, 19);
+}
+.sign-btn-2{
+    margin-left:5%;
+    height: 50px;
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 15%;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:grey;
+    background-color:#DCDCDC;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 2);
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    font-weight: bolder;
+    text-align: center;    
+}
+.sign-btn-2:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 2),0 6px 20px 0 rgba(0,0,0, 19);
+}
